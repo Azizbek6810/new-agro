@@ -1,0 +1,21 @@
+.header-bottom ul li a {
+  color: #737373;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  transition: color 0.3s linear;
+  text-decoration: none;
+}
+
+.header-bottom ul li a:hover,
+.header-bottom ul li a.active {
+  color: #0f503c;
+}
+
+img[alt='main_logo__1'] {
+  width: 50px;
+}
+
+.phone_icon{
+  transform: rotate(90deg);
+}

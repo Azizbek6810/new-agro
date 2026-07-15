@@ -1,0 +1,59 @@
+<header>
+  <div class="header-top bg-light py-2">
+    <div class="container d-flex justify-content-between">
+      <!-- Logo -->
+      <div class="d-flex align-items-center gap-3">
+        <img src="images/main-logo__1.png" alt="main_logo__1" />
+        <img src="images/logo-text.svg" alt="logo-text" />
+      </div>
+      <!-- Right -->
+      <div class="d-flex align-items-center gap-5">
+        <!-- Phone -->
+        <div class="">
+          <nz-icon nzType="phone" nzTheme="outline" class="phone_icon"></nz-icon>
+
+          <span class=""> (+998) 71 207-00-33 </span>
+        </div>
+
+        <!-- Language -->
+        <nz-select ngModel="uz" style="width: 100px;">
+          <nz-option nzValue="ru" nzLabel="Русский"></nz-option>
+          <nz-option nzValue="uz" nzLabel="O'zbek"></nz-option>
+          <nz-option nzValue="en" nzLabel="English"></nz-option>
+        </nz-select>
+
+        <!-- Login -->
+        <button nz-button nzType="primary" class="">Kirish</button>
+      </div>
+    </div>
+  </div>
+  <div class="header-bottom py-4">
+    <div class="container">
+      <nav>
+        <ul class="d-flex list-unstyled gap-4">
+          <li>
+            <a class="active">{{ 'Common.MainPage' | translate }}</a>
+          </li>
+          <li>
+            <a>{{ 'Common.Cattle' | translate }}</a>
+          </li>
+          <li>
+            <a>{{ 'Common.Agriculture' | translate }}</a>
+          </li>
+          <li>
+            <a>{{ 'Common.Trades' | translate }}</a>
+          </li>
+          <li>
+            <a>{{ 'Common.SystemNews' | translate }}</a>
+          </li>
+          <li>
+            <a>{{ 'Common.AboutPortal' | translate }}</a>
+          </li>
+          <li>
+            <a>{{ 'Common.UsefulInfo' | translate }}</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

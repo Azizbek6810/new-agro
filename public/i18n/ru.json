@@ -1,0 +1,20 @@
+{
+  "Common": {
+    "MainPage": "Главная",
+    "Cattle": "Животноводство",
+    "Agriculture": "Сельское хозяйство",
+    "Trades": "Торги",
+    "SystemNews": "Новости системы",
+    "AboutPortal": "О портале",
+    "UsefulInfo": "Полезно знать"
+  },
+  "Footer": {
+    "MainPage": "Главная",
+    "CompletedTransactions": "Завершенные торги",
+    "UncompletedTransactions": "Незавершенные торги",
+    "Information": "Информация",
+    "AboutPortal": "О портале",
+    "Partners": "Партнеры",
+    "GoodToKnow": "Полезно знать"
+  }
+}

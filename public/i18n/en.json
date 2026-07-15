@@ -1,0 +1,20 @@
+{
+  "Common": {
+    "MainPage": "Home",
+    "Cattle": "Livestock",
+    "Agriculture": "Agriculture",
+    "Trades": "Auctions",
+    "SystemNews": "System News",
+    "AboutPortal": "About the Portal",
+    "UsefulInfo": "Useful Information"
+  },
+  "Footer": {
+    "MainPage": "Home",
+    "CompletedTransactions": "Completed Auctions",
+    "UncompletedTransactions": "Ongoing Auctions",
+    "Information": "Information",
+    "AboutPortal": "About the Portal",
+    "Partners": "Partners",
+    "GoodToKnow": "Useful Information"
+  }
+}

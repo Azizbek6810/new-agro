@@ -1,0 +1,20 @@
+{
+  "Common": {
+    "MainPage": "Asosiy sahifa",
+    "Cattle": "Chorvachilik",
+    "Agriculture": "Qishloq xo'jaligi",
+    "Trades": "Savdolar",
+    "SystemNews": "Tizimdagi yangiliklar",
+    "AboutPortal": "Portal haqida",
+    "UsefulInfo": "Bilish foydali"
+  },
+  "Footer": {
+    "MainPage": "Asosiy sahifa",
+    "CompletedTransactions": "Yakunlangan savdolar",
+    "UncompletedTransactions": "Yakunlanmagan savdolar",
+    "Information": "Ma'lumotlar",
+    "AboutPortal": "Portal haqida",
+    "Partners": "Hamkorlar",
+    "GoodToKnow": "Bilish foydali"
+  }
+}
