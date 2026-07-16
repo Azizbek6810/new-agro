@@ -6,7 +6,9 @@
     "Trades": "Auctions",
     "SystemNews": "System News",
     "AboutPortal": "About the Portal",
-    "UsefulInfo": "Useful Information"
+    "UsefulInfo": "Useful Information",
+    "WelcomeText": "Welcome to the <span>Agro Uzex</span> platform!",
+    "ViewAll": "See all"
   },
   "Footer": {
     "MainPage": "Home",

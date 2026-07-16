@@ -1,0 +1,96 @@
+.guide_section {
+  padding: 40px 0;
+}
+
+.guide_title {
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: 600;
+  color: var(--new-black);
+  margin-bottom: 14px;
+}
+
+.guide_description {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: var(--gray-73);
+  margin-bottom: 40px;
+}
+
+.guide_boxes {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.guide_box {
+  width: calc(33% - 10px);
+  background-color: #f5f5f5;
+  border: 1px solid var(--gray-e5);
+  border-radius: 15px;
+  padding: 24px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  overflow: hidden;
+  height: 450px;
+}
+.guide_box:hover {
+  background-color: #fff;
+}
+
+.guide_box_title {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  color: var(--new-black);
+  margin-bottom: 8px;
+}
+
+.guide_box_description {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  color: var(--gray-73);
+  margin-bottom: 20px;
+}
+
+.guide_box_button {
+  display: flex;
+  align-items: center;
+  color: var(--gray-73);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+.right_icon {
+  transition: all 0.3s linear;
+}
+
+.guide_box_button:hover .right_icon {
+  transform: translateX(5px);
+}
+
+img[alt='soliq'] {
+  background-color: #1e2d56;
+  padding: 13px 19px;
+  border-radius: 20px;
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.partners_row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

@@ -1,1 +1,60 @@
-<p>hero works!</p>
+<div class="hero_section">
+  <div class="container">
+    <div class="hero_wrapper">
+      <!-- // hero_title ichidagi spanga alohida style yozilgani uchun tarjima innerHTML orqali qilindi va span uchun yozilgan style main.scss ga ko'chirildi // -->
+      <h3 class="hero_title" [innerHTML]="'Common.WelcomeText' | translate"></h3>
+      <p class="hero_description">
+        Chorvachilik va qishloq xo'jaligi mahsulotlari uchun onlayn savdo platformasi
+      </p>
+      <div class="hero_categories">
+        <div class="hero_category" routerLink="/home/livestocks">
+          <div class="hero_category_img">
+            <img src="/images/livestock.png" alt="livestock" />
+          </div>
+          <div class="hero_category_body">
+            <h5 class="hero_category_title">
+              {{ 'adv.Livestock' | translate }}
+            </h5>
+            <p class="hero_category_description">
+              Naslli chorva mollari savdosini amalga oshiring va subsidiyadan foydalaning.
+            </p>
+            <button nz-button nzType="primary" class="hero_category_button">
+              <span>Chorvachilikka o'tish</span>
+              <span nz-icon nzType="right" nzTheme="outline" class="right_icon"></span>
+            </button>
+          </div>
+        </div>
+        <div class="hero_category" routerLink="/home/agriculture">
+          <div class="hero_category_img">
+            <img src="/images/agricultural-products.png" alt="agricultural-products" />
+          </div>
+          <div class="hero_category_body">
+            <h5 class="hero_category_title">Qishloq xo'jaligi mahsulotlari</h5>
+            <p class="hero_category_description">
+              Qishloq xo'jaligi mahsulotlarini platforma orqali sotib oling yoki soting.
+            </p>
+            <button nz-button nzType="primary" class="hero_category_button">
+              <span>Qishloq xo'jaligiga o'tish </span>
+              <span nz-icon nzType="right" nzTheme="outline" class="right_icon"></span>
+            </button>
+          </div>
+        </div>
+        <div class="hero_category" routerLink="/home/announcements">
+          <div class="hero_category_img">
+            <img src="/images/announcements.png" alt="announcements" />
+          </div>
+          <div class="hero_category_body">
+            <h5 class="hero_category_title">E'lonlar</h5>
+            <p class="hero_category_description">
+              Chorvachilik va qishloq xo'jaligi mahsulotlarini e'lonlarini joylashtiring.
+            </p>
+            <button nz-button nzType="primary" class="hero_category_button">
+              <span>E'lonlarga o'tish </span>
+              <span nz-icon nzType="right" nzTheme="outline" class="right_icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

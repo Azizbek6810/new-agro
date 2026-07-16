@@ -6,7 +6,9 @@
     "Trades": "Торги",
     "SystemNews": "Новости системы",
     "AboutPortal": "О портале",
-    "UsefulInfo": "Полезно знать"
+    "UsefulInfo": "Полезно знать",
+    "WelcomeText": "Добро пожаловать на платформу <span>Agro Uzex!</span>",
+    "ViewAll": "Посмотреть все"
   },
   "Footer": {
     "MainPage": "Главная",

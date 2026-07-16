@@ -1,3 +1,39 @@
+:root {
+  --new-dark-green: #0f503c;
+  --new-agro-lime: #b4dc19;
+  --lime-300: #d2ea75;
+  --red-300: #ea7575;
+  --main-green-color: #446354;
+  --main-bg-color: #ebeded;
+  --secondary-green-color: #438b68;
+  --bg-gray: #f7f5f3;
+  --gray-73: #737373;
+  --new-black: #1e1919;
+  --gray-e5: #e5e5e5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.ant-btn-primary {
+  background: var(--new-dark-green);
+  font-weight: 500;
+  border: none;
+  transition: all 0.3s linear;
+  color: #fff;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus,
+.ant-btn-primary:active,
+.ant-btn-primary.active {
+  background: #007e43;
+}
+
+.hero_title span {
+  color: var(--new-agro-lime);
+}
 
 /* Max-widths at specific breakpoints (Bootstrap 5) */
 @media (min-width: 576px) {

@@ -6,7 +6,9 @@
     "Trades": "Savdolar",
     "SystemNews": "Tizimdagi yangiliklar",
     "AboutPortal": "Portal haqida",
-    "UsefulInfo": "Bilish foydali"
+    "UsefulInfo": "Bilish foydali",
+    "WelcomeText": "<span>Agro Uzex</span> platformasiga xush kelibsiz!",
+    "ViewAll": "Barchasini ko'rish"
   },
   "Footer": {
     "MainPage": "Asosiy sahifa",
